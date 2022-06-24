@@ -20,6 +20,7 @@ export const PostShare = () => {
           
         }
       };
+      console.log(image);
   return (
     <div className='PostShare'>
         <img src={ProfileImage} alt="" />
