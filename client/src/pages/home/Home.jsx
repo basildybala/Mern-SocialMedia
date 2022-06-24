@@ -1,5 +1,6 @@
 import PostSide from '../../components/postSide/PostSide'
 import Profile from '../../components/profileSide/Profile'
+import RightSide from '../../components/rightSide/RightSide'
 import './home.css'
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
     <div className='Home'>
         <Profile />
         <PostSide/>
-        <div className="RightSide">R</div>
+        <RightSide />
 
     </div>
   )
