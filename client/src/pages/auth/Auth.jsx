@@ -51,30 +51,30 @@ function LogIn() {
   );
 }
 
-function SignUp (){
-  return (
-    <div className="a-right">
-      <form action="" className='infoForm authForm'>
-        <h3>Sign Up</h3>
-        <div>
-          <input type="text" placeholder='First Name' className='infoInput' name='firstName' />
-          <input type="text" placeholder='Last Name' className='infoInput' name='lastName' />
-        </div>
-        <div>
-        <input type="text" placeholder='User Name' className='infoInput' name='userName' />
-        </div>
-        <div>
-        <input type="text" placeholder='Password' className='infoInput' name='password' />
-        <input type="text" placeholder='Confirm Password' className='infoInput' name='confirmPass' />
-        </div>
-        <div>
-          <span>
-            Already Have an Account Please Login !
-          </span>
-        </div>
-        <button className='button infoButton' type='submit'>Sign Up</button>
-      </form>
-    </div>
-  )
-}
+// function SignUp (){
+//   return (
+//     <div className="a-right">
+//       <form action="" className='infoForm authForm'>
+//         <h3>Sign Up</h3>
+//         <div>
+//           <input type="text" placeholder='First Name' className='infoInput' name='firstName' />
+//           <input type="text" placeholder='Last Name' className='infoInput' name='lastName' />
+//         </div>
+//         <div>
+//         <input type="text" placeholder='User Name' className='infoInput' name='userName' />
+//         </div>
+//         <div>
+//         <input type="text" placeholder='Password' className='infoInput' name='password' />
+//         <input type="text" placeholder='Confirm Password' className='infoInput' name='confirmPass' />
+//         </div>
+//         <div>
+//           <span>
+//             Already Have an Account Please Login !
+//           </span>
+//         </div>
+//         <button className='button infoButton' type='submit'>Sign Up</button>
+//       </form>
+//     </div>
+//   )
+// }
 export default Auth
